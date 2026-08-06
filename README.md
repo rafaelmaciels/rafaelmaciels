@@ -61,12 +61,11 @@ Sou um desenvolvedor com experiência prática na construção de aplicações w
 ---
 
 ## Estatísticas do GitHub
-
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=rafaelmaciels&show_icons=true&theme=radical&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rafaelmaciels&layout=compact&langs_count=7&theme=radical"/>
+  
+[![GitHub Stats](https://github-stats-extended.vercel.app/api/top-langs?username=rafaelmaciels&layout=compact&hide_title=true&langs_count=6&theme=transparent)](https://github-stats-extended.vercel.app/api/top-langs?username=rafaelmaciels&layout=compact&hide_title=true&langs_count=6&theme=transparent)
+
 </div>
-<br>
 <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=rafaelmaciels&theme=radical" alt="GitHub Streak" />
 </div>
