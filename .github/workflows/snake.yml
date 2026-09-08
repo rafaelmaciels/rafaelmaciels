@@ -19,12 +19,11 @@ jobs:
           outputs: dist/snake.svg
 
       - name: Commit Snake
-        uses: EndBug/add-and-commit@v9
-        with:
-          author_name: github-actions
-          author_email: github-actions@github.com
-          message: "Generate Snake"
-          add: "dist/snake.svg"
+        run: |
+          git config --global user.name 'github-actions'
+          git config --global user.email 'github-actions@github.com'
+          git add dist/snake.svg
+          git commit -m "Generate Snake" || echo "No changes to commit"
 
       - name: Push to output branch
         run: |
