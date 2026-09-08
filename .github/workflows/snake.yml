@@ -18,14 +18,16 @@ jobs:
           github_user_name: ${{ github.repository_owner }}
           outputs: dist/snake.svg
 
-      - name: Push Snake
+      - name: Commit Snake
         uses: EndBug/add-and-commit@v9
         with:
           author_name: github-actions
           author_email: github-actions@github.com
           message: "Generate Snake"
           add: "dist/snake.svg"
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        push: true
-        branch: output
+
+      - name: Push to output branch
+        run: |
+          git fetch
+          git checkout -B output
+          git push origin output --force
