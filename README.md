@@ -69,6 +69,9 @@ Sou um desenvolvedor com experiência prática na construção de aplicações w
 <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=rafaelmaciels&theme=radical" alt="GitHub Streak" />
 </div>
+<div align="center">
+![Snake animation](https://github.com/rafaelmaciels/rafaelmaciels/blob/output/dist/snake.svg)
+</div>
 
 ---
 
